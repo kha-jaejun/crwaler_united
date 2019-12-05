@@ -12,6 +12,8 @@ def count_xpath_children(xpath):
     return len(ch.driver.find_elements_by_xpath(xpath))
 
 
+
+
 def add_xpath(xpath, idx_tail, subs, num, suffix_x):
     try:
         if idx_tail == num:
